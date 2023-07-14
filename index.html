@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/index.css" media="all">
+    <link rel="stylesheet" href="estilos/media-queries-all.css" media="screen">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <section>
+        <div class="calculadora">
+
+            <div class="title">
+                <img src="imagens/calculadora.png" alt="">
+                <h1>Calculadora - IMC</h1>
+            </div>
+
+            <div class="input">
+                <label for="nome">Nome: </label>
+                <input type="text" class="input" name="nome" id="nome">
+            </div>
+
+            <div class="input">
+                <label for="altura">Altura: </label>
+                <input type="number" class="input" name="altura" id="altura">
+            </div>
+
+            <div class="input">
+                <label for="peso">Peso: </label>
+                <input type="number" class="" name="peso" id="peso">
+            </div>
+
+            <div class="btn">
+                <button id="calc" onclick="Calcular()">Calcular</button>
+                <button id="apag" onclick="limpar()">Apagar</button>
+            </div>
+            <div id="res">
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="JavaScript/calculodepeso.js"></script>
+
+
+</body>
+
+</html>

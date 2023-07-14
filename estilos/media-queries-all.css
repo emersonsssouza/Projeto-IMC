@@ -1,0 +1,161 @@
+@media screen and (min-width: 1024px) { 
+    body{
+        display: flex;
+        margin: 20vh;
+    }
+     div.title {
+         padding: 10px;
+         margin: 10px;
+         border-bottom: 1px solid black;
+     }
+
+     h1 {
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     
+     section { 
+         padding: 10px;
+         margin: auto;
+         margin-top: 10vh;
+         box-shadow: 5px 5px 50px white;
+     }
+     
+     div.calculadora {
+        margin: auto;
+         width: 700px;
+         height: 600px;
+     }
+     
+     label {
+         width: 10%;
+         font-weight: bold;
+     }
+     
+     button#calc:hover {
+         background-color: blue;
+         color: white;
+     }
+     
+     button#apag:hover {
+         background-color: blue;
+         color: white;
+     }
+     
+     div#res {
+         width: 60%;
+         height: 200px;
+         margin: auto;
+        border-radius: 8px;
+     } 
+}
+
+@media  screen and (max-width: 768px) {
+    /*Media para tablet*/
+    body{
+        display: flex;
+        margin: auto;
+     }
+     
+     div.title {
+         width: auto;
+         padding: 10px;
+         margin: 10px;
+         border-bottom: 1px solid black;
+     }
+     
+     section {
+         padding: 10px;
+         width: auto;
+     }
+     
+     div.calculadora {
+         display: flex;  
+         width: 100vw;
+         height: 100vh;
+         padding: 5px;
+     }
+     
+     label {
+         width: 15%;
+         font-weight: bold;
+     }
+     
+     button#calc:hover {
+         background-color: blue;
+         color: white;
+         border: 3px solid white;
+     }
+     
+     button#apag:hover {
+         background-color: red;
+         color: black;
+         border: 3px solid white;
+     }
+     
+     div#res {
+      display: flex;
+      margin: auto;
+      width: 60%;
+      height: 200px;
+      background-color: white;
+      border: 5px solid black;
+      border-radius: 8px;
+     } 
+}
+
+@media screen and (max-width: 481px) {
+    /*Media para SmatPhone concluido*/    
+     .title {
+         padding: 5px;
+         margin: 5px; 
+     }
+     
+     div.title > img {
+         width: 30px;
+     }
+     
+     section {  
+         padding: 5px;
+     }
+     
+     div.calculadora {
+         padding: 15px;
+     }
+     
+    button#calc:hover {
+         border: 3px solid white;
+         color: white;
+     }
+     
+     div#res {
+        width: 70%;
+        height: 100px;
+        background-color: black;
+        border-radius: 8px;
+     } 
+}
+
+@media screen and (min-width: 481px) and (orientation: landscape) {
+    div#res {
+        height: 100px;
+        margin: 10px auto;
+        background-color: black;
+    }
+
+    div.title > h1 {
+        color: white;
+    }
+
+    section {
+        margin-top: -9vh;
+        background-color: red;
+        height: auto;
+    }
+
+    div.calculadora {
+        background-color: red;
+        height: auto;
+    }
+
+   
+}
