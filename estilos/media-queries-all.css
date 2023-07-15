@@ -1,161 +1,334 @@
-@media screen and (min-width: 1024px) { 
-    body{
-        display: flex;
-        margin: 20vh;
-    }
-     div.title {
-         padding: 10px;
-         margin: 10px;
-         border-bottom: 1px solid black;
-     }
+@media only screen and (min-width: 1201px) {
+    /*Midia para grandes telas*/
+  body {
+    display: flex;
+    margin: auto;
+  }
+  
+  div.calculadora {
+    margin: auto;
+    width: 90vw;
+    height: 80vh;
+  }
 
-     h1 {
-        font-family: Arial, Helvetica, sans-serif;
-     }
-     
-     section { 
-         padding: 10px;
-         margin: auto;
-         margin-top: 10vh;
-         box-shadow: 5px 5px 50px white;
-     }
-     
-     div.calculadora {
-        margin: auto;
-         width: 700px;
-         height: 600px;
-     }
-     
-     label {
-         width: 10%;
-         font-weight: bold;
-     }
-     
-     button#calc:hover {
-         background-color: blue;
-         color: white;
-     }
-     
-     button#apag:hover {
-         background-color: blue;
-         color: white;
-     }
-     
-     div#res {
-         width: 60%;
-         height: 200px;
-         margin: auto;
-        border-radius: 8px;
-     } 
+  div.title {
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 5px solid black;
+  }
+
+  div.title > h1 {
+    font-size: 50px;
+  }
+
+  div.title > img {
+    width: 100px;
+    height: 100px;
+  }
+
+  section {
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 5px 5px 50px white;
+  }
+
+  label {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  button {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  button#calc:hover {
+    background-color: blue;
+    color: white;
+  }
+
+  button#apag:hover {
+    background-color: red;
+    color: black;
+  }
+
+  div#res {
+    width: 80vw;
+    height: 150px;
+    margin: auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+  }
 }
 
-@media  screen and (max-width: 768px) {
-    /*Media para tablet*/
-    body{
-        display: flex;
-        margin: auto;
-     }
-     
-     div.title {
-         width: auto;
-         padding: 10px;
-         margin: 10px;
-         border-bottom: 1px solid black;
-     }
-     
-     section {
-         padding: 10px;
-         width: auto;
-     }
-     
-     div.calculadora {
-         display: flex;  
-         width: 100vw;
-         height: 100vh;
-         padding: 5px;
-     }
-     
-     label {
-         width: 15%;
-         font-weight: bold;
-     }
-     
-     button#calc:hover {
-         background-color: blue;
-         color: white;
-         border: 3px solid white;
-     }
-     
-     button#apag:hover {
-         background-color: red;
-         color: black;
-         border: 3px solid white;
-     }
-     
-     div#res {
-      display: flex;
-      margin: auto;
-      width: 60%;
-      height: 200px;
-      background-color: white;
-      border: 5px solid black;
-      border-radius: 8px;
-     } 
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  /*Media para Desktops*/
+  body {
+    display: flex;
+    margin: auto;
+    background-image: url(../background/bakground-media-Desktop.jpg);
+  }
+
+div.calculadora {
+    background-image: url(../background/bakground-media-Desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95vw;
+    height: 85vh;
+    padding: 5px;
+  }
+
+  div.title {  
+    padding: 10px;
+    margin: 10px;
+  }
+
+  div.title > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+
+  div.title > h1 {
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+  }
+
+  label {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  input {
+    padding: 10px;
+  }
+
+  section {
+    background-image: linear-gradient(80deg,#A67F58, #F5AB5F,#68EEF2,#A65537,#F2855C);
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+  }
+
+  button#calc:hover {
+    background-color: blue;
+    color: white;
+    border: 3px solid white;
+  }
+
+  button#apag:hover {
+    background-color: red;
+    color: black;
+    border: 3px solid white;
+  }
+
+  div#res {
+    margin: auto;
+    width: 60vw;
+    height: 100px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+  }
 }
 
-@media screen and (max-width: 481px) {
-    /*Media para SmatPhone concluido*/    
-     .title {
-         padding: 5px;
-         margin: 5px; 
-     }
-     
-     div.title > img {
-         width: 30px;
-     }
-     
-     section {  
-         padding: 5px;
-     }
-     
-     div.calculadora {
-         padding: 15px;
-     }
-     
-    button#calc:hover {
-         border: 3px solid white;
-         color: white;
-     }
-     
-     div#res {
-        width: 70%;
-        height: 100px;
-        background-color: black;
-        border-radius: 8px;
-     } 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-image: url(../background/background-media-Laptops.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  div.calculadora {
+    background-image: url(../background/background-media-Laptops.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    width: 90vw;
+    height: 90vh;
+  }
+
+  div.title {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  div.title > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid white;
+  }
+
+  div.title > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding: 5px 20px;
+    color: white;
+  }
+
+  label {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  input {
+    padding: 10px;
+  }
+
+  section {
+    background-image: linear-gradient(80deg, #FA5619,#9A53DB, #68EEF2,#AFDB53, #FFB161);
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  div#res {
+    width: 80vw;
+    height: 200px;
+    margin: auto;
+    border: 5px solid orange;
+    border-radius: 8px;
+    background-color: white;
+  }
 }
 
-@media screen and (min-width: 481px) and (orientation: landscape) {
-    div#res {
-        height: 100px;
-        margin: 10px auto;
-        background-color: black;
-    }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /*Media para Tablet concluido*/
+  body {
+    background-image: url(../background/background-Media-Tablet.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  div.calculadora {
+    background-image: url(../background/background-Media-Tablet.jpg);
+    padding: 15px;
+    width: 90vw;
+    height: 85vh;
+  }
 
-    div.title > h1 {
-        color: white;
-    }
+  div.title {
+    padding: 5px;
+    margin: 5px;
+  }
 
-    section {
-        margin-top: -9vh;
-        background-color: red;
-        height: auto;
-    }
+  div.title > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
 
-    div.calculadora {
-        background-color: red;
-        height: auto;
-    }
+  div.title > h1 {
+    color: white;
+    font-size: 50px;
+  }
 
-   
+  label {
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+  }
+
+  section {
+    background-color: black;
+  }
+
+  button {
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  button#calc:hover {
+    background-color: green;
+    border: 3px solid white;
+    color: white;
+  }
+
+  div#res {
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /*Arquivo de midia para SmartPhone*/
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: url(../background/background-Media-SmartPhone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  div.title > h1 {
+    color: white;
+    padding: 5px;
+  }
+
+  div.calculadora {
+    width: 90vw;
+    background-image: linear-gradient(23deg, orange, dimgray, green);
+    height: 450px;
+  }
+
+  div#res {
+    width: 70vw;
+    height: 100px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: black;
+    border-radius: 8px;
+  }
+
+  label {
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+
+  button {
+    padding: 20px 20px;
+    margin: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  section {
+    margin-top: 10%;
+    background-image: linear-gradient(80deg, yellow, green, blue);
+    height: auto;
+    padding: 1px;
+  }
 }

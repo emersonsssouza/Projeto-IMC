@@ -12,7 +12,7 @@ function Calcular() {
   } else if (soma < 18.5) {
     resultado.innerHTML = `${nome} seu IMC é ${soma} e voce esta abaixo do peso`;
   } else if (soma >= 18.5 && soma < 24.9) {
-    resultado.innerHTML = `${nome} seu IMC é ${soma} e voce está com peso ideal. Parabens`;
+    resultado.innerHTML = `${nome} seu IMC é ${soma} e voce está com peso ideal. Parabens!!!`;
   } else if (soma >= 25 && soma < 29.9) {
     resultado.innerHTML = `${nome} seu IMC é ${soma} e voce está com Sobrepeso`;
   } else if (soma >= 30 && soma < 34.9) {
@@ -20,7 +20,7 @@ function Calcular() {
   } else if (soma >= 35 && soma < 39.9) {
     resultado.innerHTML = `${nome} seu IMC é ${soma} e voce está com Obesidade grau 2 (severa)`;
   } else {
-    resultado.innerHTML = `${nome} seu IMC é ${soma} e voce está com Obesidade grau 3 (Severa)`;
+    resultado.innerHTML = `${nome} seu IMC é ${soma} e voce está com Obesidade grau 3 (Morbida)`;
   }
   console.log(soma);
 }
