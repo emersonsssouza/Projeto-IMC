@@ -1,0 +1,9 @@
+@media (orientation: Landscape) {
+    body {
+        color: black;
+    }
+
+    div.calculadora {
+        background-color: red;
+    }
+}
