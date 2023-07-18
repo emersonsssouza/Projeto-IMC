@@ -1,10 +1,10 @@
 @media only screen and (min-width: 1201px) {
-    /*Midia para grandes telas*/
+  /*Midia para grandes telas*/
   body {
     display: flex;
     margin: auto;
   }
-  
+
   div.calculadora {
     margin: auto;
     width: 90vw;
@@ -79,7 +79,7 @@
     background-image: url(../background/bakground-media-Desktop.jpg);
   }
 
-div.calculadora {
+  div.calculadora {
     background-image: url(../background/bakground-media-Desktop.jpg);
     background-position: center;
     background-size: cover;
@@ -88,7 +88,7 @@ div.calculadora {
     padding: 5px;
   }
 
-  div.title {  
+  div.title {
     padding: 10px;
     margin: 10px;
   }
@@ -118,7 +118,14 @@ div.calculadora {
   }
 
   section {
-    background-image: linear-gradient(80deg,#A67F58, #F5AB5F,#68EEF2,#A65537,#F2855C);
+    background-image: linear-gradient(
+      80deg,
+      #a67f58,
+      #f5ab5f,
+      #68eef2,
+      #a65537,
+      #f2855c
+    );
   }
 
   button {
@@ -195,7 +202,14 @@ div.calculadora {
   }
 
   section {
-    background-image: linear-gradient(80deg, #FA5619,#9A53DB, #68EEF2,#AFDB53, #FFB161);
+    background-image: linear-gradient(
+      80deg,
+      #fa5619,
+      #9a53db,
+      #68eef2,
+      #afdb53,
+      #ffb161
+    );
   }
 
   button {
@@ -222,7 +236,7 @@ div.calculadora {
     background-position: center;
     background-size: cover;
   }
-  
+
   div.calculadora {
     background-image: url(../background/background-Media-Tablet.jpg);
     padding: 15px;
@@ -281,7 +295,7 @@ div.calculadora {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-    /*Arquivo de midia para SmartPhone*/
+  /*Arquivo de midia para SmartPhone*/
   body {
     display: flex;
     justify-content: center;
@@ -332,10 +346,6 @@ div.calculadora {
     padding: 1px;
   }
 }
-
-
-
-
 
 @media (min-width: 1201px) and (orientation: landscape) {
   body {
@@ -405,7 +415,7 @@ div.calculadora {
     width: 200px;
     height: 70px;
     font-size: 20px;
-    margin: 2px; 
+    margin: 2px;
   }
 
   div.btn > button:hover {
@@ -423,12 +433,12 @@ div.calculadora {
     display: flex;
     justify-content: center;
     align-items: center;
-   background-color: black;
-   margin-top: 10%;
+    background-color: black;
+    margin-top: 10%;
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1200px) and (orientation: landscape){
+@media (min-width: 1025px) and (max-width: 1200px) and (orientation: landscape) {
   /*Desktop*/
   body {
     background-image: none;
@@ -495,7 +505,7 @@ div.calculadora {
     width: 200px;
     height: 70px;
     font-size: 20px;
-    margin: 2px; 
+    margin: 2px;
   }
 
   div.btn > button:hover {
@@ -513,11 +523,10 @@ div.calculadora {
     display: flex;
     justify-content: center;
     align-items: center;
-   background-color: black;
-   margin-top: 10%;
+    background-color: black;
+    margin-top: 10%;
   }
 }
-
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: Landscape) {
   /*Grandes telas*/
@@ -563,7 +572,7 @@ div.calculadora {
   div.input > label {
     font-size: 24px;
     width: 20%;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -587,7 +596,7 @@ div.calculadora {
     width: 150px;
     height: 50px;
     font-size: 20px;
-    margin: 2px; 
+    margin: 2px;
   }
 
   div.btn > button:hover {
@@ -602,16 +611,15 @@ div.calculadora {
   }
 
   section {
-  display: flex;
-   background-color: black;
-   margin-top: 10%;
-
+    display: flex;
+    background-color: black;
+    margin-top: 10%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
-   /*Tablet*/
-   body {
+  /*Tablet*/
+  body {
     background-image: none;
     background-color: black;
     display: flex;
@@ -653,7 +661,7 @@ div.calculadora {
   div.input > label {
     font-size: 20px;
     width: 20%;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -677,7 +685,7 @@ div.calculadora {
     width: 100px;
     height: 30px;
     font-size: 20px;
-    margin: 2px; 
+    margin: 2px;
   }
 
   div.btn > button:hover {
@@ -692,10 +700,10 @@ div.calculadora {
   }
 
   section {
-   background-color: black;
-   margin-top: 5px;
-   margin: auto;
-   margin-top: 0px;
+    background-color: black;
+    margin-top: 5px;
+    margin: auto;
+    margin-top: 0px;
   }
 }
 
@@ -742,7 +750,7 @@ div.calculadora {
   div.input > label {
     font-size: 20px;
     width: 20%;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -766,7 +774,7 @@ div.calculadora {
     width: 100px;
     height: 30px;
     font-size: 20px;
-    margin: 2px; 
+    margin: 2px;
   }
 
   div.btn > button:hover {
@@ -781,9 +789,9 @@ div.calculadora {
   }
 
   section {
-   background-color: black;
-   margin-top: 5px;
-   margin: auto;
-   margin-top: 0px;
+    background-color: black;
+    margin-top: 5px;
+    margin: auto;
+    margin-top: 0px;
   }
 }
